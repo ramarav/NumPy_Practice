@@ -12,3 +12,10 @@ print('Type of np_height is : %s'%(type(np_height)))
 print(np_height)
 print('Type of np_weight is : %s'%(type(np_weight)))
 print(np_weight)
+
+
+# Calculate bmi
+bmi = np_weight / np_height ** 2
+
+# Print the result
+print('Body Mass Index is : %s'%bmi)
