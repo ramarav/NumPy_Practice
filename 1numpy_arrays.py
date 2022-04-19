@@ -19,3 +19,9 @@ bmi = np_weight / np_height ** 2
 
 # Print the result
 print('Body Mass Index is : %s'%bmi)
+
+# For a boolean response
+bmi > 23
+
+# Print only those observations above 23
+print('BMI values above 23 are : %s'%bmi[bmi > 23])
